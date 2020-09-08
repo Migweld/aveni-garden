@@ -17,7 +17,7 @@ Test against the stable contract.
 ### Red - Green - Refactor
 
 - Red: Write a test which **describes the behaviour** of your **public interface**. Make sure it fails.
-- Green: Write code **quickly** to implement that behaviour. The will likely be awful, that's what we want.
+- Green: Write code **quickly** to implement that behaviour. The will likely be awful, that's what we want. This stage is all about building a working implementation at speed.
 - Refactor: Change your implementation so that it adheres to best practices. Remove code smells and DRY it out. At this point we're working on the code, **not the implementation**
 
 ### Sources
