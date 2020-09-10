@@ -16,7 +16,9 @@ The most popular project for container orchestration today is Kubernetes. Develo
 
 Kubernetes consists of a number of components that make up a cluster
 
-<details><summary>Click to see the different components</summary>
+<details>
+
+<summary>Click to see the different components</summary>
 
 - Nodes:
 
