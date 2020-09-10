@@ -17,7 +17,6 @@ The most popular project for container orchestration today is Kubernetes. Develo
 Kubernetes consists of a number of components that make up a cluster
 
 <details>
-
 <summary>Click to see the different components</summary>
 
 - Nodes:
@@ -58,6 +57,8 @@ Kubernetes consists of a number of components that make up a cluster
   - The Deployment configuration dictates how many replicas we want at any given time and how they should be updated. This means we can configure it in such a way that we have zero-downtime deployments as well as automated spinning up of containers to deal with load or cover crashes.
 
 - StatefulSets
+
   - These act like deployments but for stateful applications, like database containers.
   - They allow replication but also ensure that state read/write actions are synchronised, so we don't end up with data inconsistencies when replicating or destroying stateful pods.
+
   </details>
