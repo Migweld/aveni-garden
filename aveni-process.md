@@ -3,6 +3,27 @@
 ## Principles
 
 - Go fast forever
+  - Reduce cycle time
+  - Increase developer confidence
+  - Shorten feedback loops between users and engineers
+
+### The workflow
+- What processes can we get rid of?
+- What can we automate?
+  - Testing/Linting
+  - Code complexity
+  - Deployments
+- What can we streamline without automation
+
+### The metrics
+- PR size
+  - Target: >95% of PRs under 250 lines
+  - Current hypothesis: Within or close to the target
+- Rework
+  - Target: Under 15% of re-authored code
+  - Current hypothesis: High amount of rework
+- Work in progress
+  - Target: 1 WIP PR per developer, max of 2
 
 [[testing]]
 
